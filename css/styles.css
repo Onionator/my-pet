@@ -30,3 +30,38 @@ h1.dog {
 .greg {
   font-family: fantasy;
 }
+
+.darkMode {
+  background-color: #00123F;
+  color: darksalmon;
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.lightMode {
+  display: none;
+  background-color: #Fa923f;
+  color: #000;
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.lightBackground {
+  background-color: white;
+  color: black;
+}
+
+.darkBackground {
+  background-color: black;
+  color: darksalmon;
+}
+
+.darkMode:hover, .lightMode:hover {
+  cursor: pointer;
+}
